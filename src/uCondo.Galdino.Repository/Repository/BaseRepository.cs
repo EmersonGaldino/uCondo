@@ -46,6 +46,7 @@ public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : 
     {
         var remove = await GetByIdAsync(id);
         context.Remove(remove);
+        await SaveChanges();
     }
 
     private async Task SaveChanges()

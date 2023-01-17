@@ -8,4 +8,5 @@ public interface IAccountRepository
     Task<AccountEntity> Post(AccountEntity item);
     Task<List<AccountEntity>> GetByAccount(int id);
     Task Put(AccountEntity model);
+    Task Delete(int id);
 }

@@ -26,8 +26,8 @@ public class AccountService : IAccountService
     }
 
     public async Task Put(AccountEntity model) => await repository.Put(model);
+    public async Task Delete(int id) => await repository.Delete(id);
     
-
     private async Task<AccountEntity> GenerateCoding(AccountEntity model)
     {
         var items = await repository.GetByAccount(model.AccountFather);

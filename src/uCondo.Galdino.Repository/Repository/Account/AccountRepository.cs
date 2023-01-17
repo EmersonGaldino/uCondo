@@ -31,5 +31,6 @@ public class AccountRepository : BaseRepository<AccountEntity>, IAccountReposito
     }
 
     public async Task Put(AccountEntity model) =>  await AddOrUpdateAsync(model);
-    
+    public async Task Delete(int id) => await Remove(id);
+
 }
