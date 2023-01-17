@@ -10,7 +10,7 @@
   
   1.1.2 - createTableUser.sql, esse arquivo gera algumas tabelas iniciais para que a API funcione e tenha um login
     
-  1.1.2.1 - Este login será necessário realizar as chamadas da API que atua como Oauht2, utilizando uma Bearer Token, que é gerado pela rota /Auth
+  1.1.2.1 - Este login será necessário realizar as chamadas da API que atua como Oauht2, utilizando um Bearer Token, que é gerado pela rota /Auth
   
   1.1.2.2 - Utilize esse payload para retornar um JWT Token 
   
