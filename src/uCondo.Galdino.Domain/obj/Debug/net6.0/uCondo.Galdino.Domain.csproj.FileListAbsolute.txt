@@ -10,3 +10,15 @@
 /Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/obj/Debug/net6.0/refint/uCondo.Galdino.Domain.dll
 /Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/obj/Debug/net6.0/uCondo.Galdino.Domain.pdb
 /Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/obj/Debug/net6.0/ref/uCondo.Galdino.Domain.dll
+/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/bin/Debug/net6.0/uCondo.Galdino.Domain.deps.json
+/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/bin/Debug/net6.0/uCondo.Galdino.Domain.dll
+/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/bin/Debug/net6.0/uCondo.Galdino.Domain.pdb
+/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/obj/Debug/net6.0/uCondo.Galdino.Domain.csproj.AssemblyReference.cache
+/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/obj/Debug/net6.0/uCondo.Galdino.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/obj/Debug/net6.0/uCondo.Galdino.Domain.AssemblyInfoInputs.cache
+/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/obj/Debug/net6.0/uCondo.Galdino.Domain.AssemblyInfo.cs
+/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/obj/Debug/net6.0/uCondo.Galdino.Domain.csproj.CoreCompileInputs.cache
+/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/obj/Debug/net6.0/uCondo.Galdino.Domain.dll
+/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/obj/Debug/net6.0/refint/uCondo.Galdino.Domain.dll
+/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/obj/Debug/net6.0/uCondo.Galdino.Domain.pdb
+/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/obj/Debug/net6.0/ref/uCondo.Galdino.Domain.dll

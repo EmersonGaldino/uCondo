@@ -1,40 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\UCondo.Galdino\\UCondo.Galdino.csproj": {}
+    "/Users/emersongaldino/Projects/POC/uCondo/src/UCondo.Galdino/UCondo.Galdino.csproj": {}
   },
   "projects": {
-    "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Application\\uCondo.Galdino.Application.csproj": {
+    "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Application\\uCondo.Galdino.Application.csproj",
+        "projectUniqueName": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj",
         "projectName": "uCondo.Galdino.Application",
-        "projectPath": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Application\\uCondo.Galdino.Application.csproj",
-        "packagesPath": "C:\\Users\\emers\\.nuget\\packages\\",
-        "outputPath": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Application\\obj\\",
+        "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj",
+        "packagesPath": "/Users/emersongaldino/.nuget/packages/",
+        "outputPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\emers\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Domain\\uCondo.Galdino.Domain.csproj": {
-                "projectPath": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Domain\\uCondo.Galdino.Domain.csproj"
+              "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj"
               }
             }
           }
@@ -63,44 +56,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.BootStrapper\\uCondo.Galdino.BootStrapper.csproj": {
+    "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.BootStrapper\\uCondo.Galdino.BootStrapper.csproj",
+        "projectUniqueName": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj",
         "projectName": "uCondo.Galdino.BootStraper",
-        "projectPath": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.BootStrapper\\uCondo.Galdino.BootStrapper.csproj",
-        "packagesPath": "C:\\Users\\emers\\.nuget\\packages\\",
-        "outputPath": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.BootStrapper\\obj\\",
+        "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj",
+        "packagesPath": "/Users/emersongaldino/.nuget/packages/",
+        "outputPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.BootStrapper/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\emers\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Application\\uCondo.Galdino.Application.csproj": {
-                "projectPath": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Application\\uCondo.Galdino.Application.csproj"
+              "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj"
               },
-              "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Repository\\uCondo.Galdino.Repository.csproj": {
-                "projectPath": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Repository\\uCondo.Galdino.Repository.csproj"
+              "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj"
               }
             }
           }
@@ -235,33 +221,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Domain\\uCondo.Galdino.Domain.csproj": {
+    "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Domain\\uCondo.Galdino.Domain.csproj",
+        "projectUniqueName": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj",
         "projectName": "uCondo.Galdino.Domain",
-        "projectPath": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Domain\\uCondo.Galdino.Domain.csproj",
-        "packagesPath": "C:\\Users\\emers\\.nuget\\packages\\",
-        "outputPath": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Domain\\obj\\",
+        "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj",
+        "packagesPath": "/Users/emersongaldino/.nuget/packages/",
+        "outputPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\emers\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -294,41 +273,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Repository\\uCondo.Galdino.Repository.csproj": {
+    "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Repository\\uCondo.Galdino.Repository.csproj",
+        "projectUniqueName": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj",
         "projectName": "uCondo.Galdino.Repository",
-        "projectPath": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Repository\\uCondo.Galdino.Repository.csproj",
-        "packagesPath": "C:\\Users\\emers\\.nuget\\packages\\",
-        "outputPath": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Repository\\obj\\",
+        "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj",
+        "packagesPath": "/Users/emersongaldino/.nuget/packages/",
+        "outputPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Repository/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\emers\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Domain\\uCondo.Galdino.Domain.csproj": {
-                "projectPath": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Domain\\uCondo.Galdino.Domain.csproj"
+              "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj"
               }
             }
           }
@@ -367,47 +339,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\UCondo.Galdino\\UCondo.Galdino.csproj": {
+    "/Users/emersongaldino/Projects/POC/uCondo/src/UCondo.Galdino/UCondo.Galdino.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\UCondo.Galdino\\UCondo.Galdino.csproj",
+        "projectUniqueName": "/Users/emersongaldino/Projects/POC/uCondo/src/UCondo.Galdino/UCondo.Galdino.csproj",
         "projectName": "UCondo.Galdino",
-        "projectPath": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\UCondo.Galdino\\UCondo.Galdino.csproj",
-        "packagesPath": "C:\\Users\\emers\\.nuget\\packages\\",
-        "outputPath": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\UCondo.Galdino\\obj\\",
+        "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/UCondo.Galdino/UCondo.Galdino.csproj",
+        "packagesPath": "/Users/emersongaldino/.nuget/packages/",
+        "outputPath": "/Users/emersongaldino/Projects/POC/uCondo/src/UCondo.Galdino/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\emers\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Application\\uCondo.Galdino.Application.csproj": {
-                "projectPath": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Application\\uCondo.Galdino.Application.csproj"
+              "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj"
               },
-              "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.BootStrapper\\uCondo.Galdino.BootStrapper.csproj": {
-                "projectPath": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.BootStrapper\\uCondo.Galdino.BootStrapper.csproj"
+              "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj"
               },
-              "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Domain\\uCondo.Galdino.Domain.csproj": {
-                "projectPath": "E:\\Particular\\BackEnd\\GitHub\\uCondo\\src\\uCondo.Galdino.Domain\\uCondo.Galdino.Domain.csproj"
+              "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj"
               }
             }
           }
@@ -439,7 +404,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -2,7 +2,7 @@ namespace uCondo.Galdino.Domain.Repositories.IRepository.Base;
 
 public interface IBaseRepository<TEntity> : IDisposable where TEntity : class
 {
-    Task<TEntity> GetByIdAsync(string id);
-    Task<IList<TEntity>> GetAllAsync();
+    Task<TEntity> GetByIdAsync(int id);
+    Task<List<TEntity>> GetAllAsync();
     Task AddOrUpdateAsync(TEntity entity);
 }

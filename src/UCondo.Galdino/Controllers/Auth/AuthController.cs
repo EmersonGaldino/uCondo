@@ -65,12 +65,6 @@ public class AuthController : ApiBaseController
             error = Error("Usuario não localizado");
             return true;
         }
-
-        // if (user?.AssingKey is "")
-        // {
-        //     error = Error("Usuario não esta cadastrado em nenhuma empresa.");
-        //     return true;
-        // }
         error = null;
         return false;
     }

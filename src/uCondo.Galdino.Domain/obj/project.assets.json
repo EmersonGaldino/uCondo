@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj",
+      "projectUniqueName": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj",
       "projectName": "uCondo.Galdino.Domain",
-      "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj",
+      "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj",
       "packagesPath": "/Users/emersongaldino/.nuget/packages/",
-      "outputPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/obj/",
+      "outputPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"

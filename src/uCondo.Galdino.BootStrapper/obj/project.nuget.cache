@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+NtoqtdhlOeZI8Gs3yh3rw8QO4LJqPHcYaeiMH8is/CGh9++hIAR0YUuhPyz4zwvsjYBKR+5qOUk3+85NMiT5Q==",
+  "dgSpecHash": "4sAEn8sl2xyrC2PPNahf4yl4EQuPxnCfgLCfvft5Q9eIVY1ABfNkBRPMpZCObmUgjAMoNNMr4oRF2XnysONsFw==",
   "success": true,
-  "projectFilePath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj",
+  "projectFilePath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj",
   "expectedPackageFiles": [
     "/Users/emersongaldino/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/emersongaldino/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj",
+      "projectUniqueName": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj",
       "projectName": "uCondo.Galdino.Application",
-      "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj",
+      "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj",
       "packagesPath": "/Users/emersongaldino/.nuget/packages/",
-      "outputPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Application/obj/",
+      "outputPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj": {
-              "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj"
+            "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj": {
+              "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj"
             }
           }
         }

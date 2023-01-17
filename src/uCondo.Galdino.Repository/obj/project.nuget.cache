@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1CUZHO5ZnJnAAg1g2VBN7okiW36Oe3vciKrQPXPHbJtoIm5ozeSbcLz7qlQILsIHdgZgPVn8sZPvbKK+TnYzmQ==",
+  "dgSpecHash": "0BeTD6reE2eAaS1W6PupQywE8jvvYb3D/L5Z/wNtl5y6nsXq6Ri++WVL+ijDbMQvxDx8cfLde90Aa6BFggl6bQ==",
   "success": true,
-  "projectFilePath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj",
+  "projectFilePath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj",
   "expectedPackageFiles": [
     "/Users/emersongaldino/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/emersongaldino/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",

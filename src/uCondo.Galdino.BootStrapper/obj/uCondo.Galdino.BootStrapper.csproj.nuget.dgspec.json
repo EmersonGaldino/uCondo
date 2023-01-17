@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj": {}
+    "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj": {}
   },
   "projects": {
-    "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj": {
+    "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj",
+        "projectUniqueName": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj",
         "projectName": "uCondo.Galdino.Application",
-        "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj",
+        "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj",
         "packagesPath": "/Users/emersongaldino/.nuget/packages/",
-        "outputPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Application/obj/",
+        "outputPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj": {
-                "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj"
+              "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj"
               }
             }
           }
@@ -60,14 +60,14 @@
         }
       }
     },
-    "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj": {
+    "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj",
+        "projectUniqueName": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj",
         "projectName": "uCondo.Galdino.BootStraper",
-        "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj",
+        "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj",
         "packagesPath": "/Users/emersongaldino/.nuget/packages/",
-        "outputPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.BootStrapper/obj/",
+        "outputPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.BootStrapper/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
@@ -82,11 +82,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj": {
-                "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj"
+              "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj"
               },
-              "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj": {
-                "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj"
+              "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj"
               }
             }
           }
@@ -225,14 +225,14 @@
         }
       }
     },
-    "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj": {
+    "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj",
+        "projectUniqueName": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj",
         "projectName": "uCondo.Galdino.Domain",
-        "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj",
+        "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj",
         "packagesPath": "/Users/emersongaldino/.nuget/packages/",
-        "outputPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/obj/",
+        "outputPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
@@ -277,14 +277,14 @@
         }
       }
     },
-    "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj": {
+    "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj",
+        "projectUniqueName": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj",
         "projectName": "uCondo.Galdino.Repository",
-        "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj",
+        "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj",
         "packagesPath": "/Users/emersongaldino/.nuget/packages/",
-        "outputPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Repository/obj/",
+        "outputPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Repository/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
@@ -299,8 +299,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj": {
-                "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj"
+              "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj"
               }
             }
           }

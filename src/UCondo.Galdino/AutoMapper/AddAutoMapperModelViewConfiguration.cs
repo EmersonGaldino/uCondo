@@ -1,5 +1,7 @@
 
 
+using UCondo.Galdino.AutoMapper;
+
 public static class AddAutoMapperModelViewConfig
 {
     public static void AddAutoMapperModelViewConfiguration(this IServiceCollection services)

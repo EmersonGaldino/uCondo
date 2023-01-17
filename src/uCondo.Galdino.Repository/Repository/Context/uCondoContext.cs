@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using uCondo.Galdino.Domain.Entity.Account;
 using uCondo.Galdino.Domain.Entity.User;
 
 namespace uCondo.Galdino.Repository.Repository.Context;
@@ -9,13 +10,20 @@ public class uCondoContext : DbContext
     {
     }
 
-    public virtual DbSet<UserEntity> User { get; set; } = null;
+    public virtual DbSet<UserEntity> User { get; set; } 
+    public virtual DbSet<AccountEntity> Accounts { get; set; } 
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<UserEntity>(entity =>
         {
             entity.ToTable("User");
+            entity.HasKey(p => p.Id);
+
+        });
+        modelBuilder.Entity<AccountEntity>(entity =>
+        {
+            entity.ToTable("Account");
             entity.HasKey(p => p.Id);
 
         });

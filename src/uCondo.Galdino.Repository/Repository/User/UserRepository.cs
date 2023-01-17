@@ -13,9 +13,6 @@ public class UserRepository : BaseRepository<UserEntity>, IUserRepository
     {
         this.context = context;
     }
-    public async Task<UserEntity> GetUser(UserEntity model)
-    {
-        var data = await context.User.FirstOrDefaultAsync(u => u.Email == model.Email && u.Password == model.Password);
-        return data;
-    }
+    public async Task<UserEntity> GetUser(UserEntity model) =>
+         await context.User.FirstOrDefaultAsync(u => u.Email == model.Email && u.Password == model.Password);
 }

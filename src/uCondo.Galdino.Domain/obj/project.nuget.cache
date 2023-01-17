@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VUv2aeYX8tEXwlAEf4Ea+5J2CBu7x1PGOO89EvyPYUq4olS39g9+Qygl18k2z0JtibITWCJGede9wFFZ53ulcw==",
+  "dgSpecHash": "9spYqnQ2lUBuVu+Dx/FkyWHpEpIq9CRQu+WlaI7LTYMfmnsbGkCg4hSCe82L6QonpFZJRgBZ7qwnuD2oPici/Q==",
   "success": true,
-  "projectFilePath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj",
+  "projectFilePath": "/Users/emersongaldino/Projects/POC/uCondo/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
