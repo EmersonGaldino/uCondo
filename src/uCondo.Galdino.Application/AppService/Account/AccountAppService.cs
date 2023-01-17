@@ -16,5 +16,6 @@ public class AccountAppService : IAccountAppService
     public async Task<AccountEntity> Post(AccountEntity model) => await service.Post(model);
     public async Task Put(AccountEntity model) => await service.Put(model);
     public async Task Delete(int id) => await service.Delete(id);
+    public async Task<AccountEntity> GetById(int id) => await service.GetById(id);
 
 }

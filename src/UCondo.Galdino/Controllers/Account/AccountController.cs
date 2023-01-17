@@ -76,4 +76,19 @@ public class AccountController : ApiBaseController
             Success = true
         });
     }
+    [HttpGet("{id}")]
+    [SwaggerOperation(Summary = "Delete Account",
+        Description = "Deleta uma conta no sistema.")]
+    [SwaggerResponse(200, "Conta deletada.", typeof(SuccessResponse<BaseModelView<List<AccountModelView>>>))]
+    [SwaggerResponse(400, "Não foi possível deletar a conta do sistema.", typeof(BadResponse))]
+    [SwaggerResponse(500, "Erro no rastreamento da pilha.", typeof(BadResponse))]
+    public async Task<IActionResult> GetById(int id)
+    {
+        return await AutoResult(async () => new BaseModelView<AccountModelView>
+        {
+            Data = Mapper.Map<AccountModelView>(await appService.GetById(id)),
+            Message = "Account location.",
+            Success = true
+        });
+    }
 }

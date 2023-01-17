@@ -9,4 +9,5 @@ public interface IAccountRepository
     Task<List<AccountEntity>> GetByAccount(int id);
     Task Put(AccountEntity model);
     Task Delete(int id);
+    Task<AccountEntity> GetById(int id);
 }
