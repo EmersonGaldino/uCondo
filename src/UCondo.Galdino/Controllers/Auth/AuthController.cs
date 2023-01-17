@@ -66,11 +66,11 @@ public class AuthController : ApiBaseController
             return true;
         }
 
-        if (user?.AssingKey is "")
-        {
-            error = Error("Usuario não esta cadastrado em nenhuma empresa.");
-            return true;
-        }
+        // if (user?.AssingKey is "")
+        // {
+        //     error = Error("Usuario não esta cadastrado em nenhuma empresa.");
+        //     return true;
+        // }
         error = null;
         return false;
     }
@@ -79,14 +79,14 @@ public class AuthController : ApiBaseController
     private string GenerateToken(UserEntity user)
     {
         var tokenHandler = new JwtSecurityTokenHandler();
-        var key = Encoding.ASCII.GetBytes(user.AssingKey);
+        var key = Encoding.ASCII.GetBytes(TokenConfig.SigningKey);
         var tokenDescriptor = new SecurityTokenDescriptor
         {
             Subject = new ClaimsIdentity(
-                new GenericIdentity(user.Company, "login"),
+                new GenericIdentity(user.Email, "login"),
                 new[]
                 {
-                    new Claim("id", user.Id),
+                    new Claim("id", user.Id.ToString()),
                     new Claim("Email", user.Email)
                 }),
             Expires = DateTime.UtcNow.AddDays(TokenConfig.ExpireIn),
