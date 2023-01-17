@@ -1,0 +1,32 @@
+version: '3.4'
+services:
+  # api:
+  #   image: ucondoapi
+  #   environment:
+  #     - ASPNETCORE_ENVIRONMENT=Docker
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - '5000:80'
+  #     - '5001:443'
+  #   depends_on:
+  #     - sqlserver
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      SA_PASSWORD: "SqlServer2019!"
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: Express
+    ports:
+      - "1433:1433"
+  mssqltools:
+    image: mcr.microsoft.com/mssql-tools
+    depends_on:
+      - sqlserver
+    volumes:
+      - ../../sql/1-initialDatabase.sql:/tmp/1-initialDatabase.sql
+      - ../../sql/2-createTableUser.sql:/tmp/2-createTableUser.sql
+      - ../../sql/init-uCondo.sh:/tmp/init-uCondo.sh
+    command: /bin/bash ./tmp/init-uCondo.sh

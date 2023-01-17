@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "uCondo.Galdino.Application/1.0.0": {
+        "dependencies": {
+          "uCondo.Galdino.Domain": "1.0.0"
+        },
+        "runtime": {
+          "uCondo.Galdino.Application.dll": {}
+        }
+      },
+      "uCondo.Galdino.Domain/1.0.0": {
+        "runtime": {
+          "uCondo.Galdino.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "uCondo.Galdino.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "uCondo.Galdino.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

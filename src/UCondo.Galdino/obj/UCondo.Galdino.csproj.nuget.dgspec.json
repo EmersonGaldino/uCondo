@@ -1,0 +1,412 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/UCondo.Galdino/UCondo.Galdino.csproj": {}
+  },
+  "projects": {
+    "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj",
+        "projectName": "uCondo.Galdino.Application",
+        "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj",
+        "packagesPath": "/Users/emersongaldino/.nuget/packages/",
+        "outputPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj",
+        "projectName": "uCondo.Galdino.BootStraper",
+        "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj",
+        "packagesPath": "/Users/emersongaldino/.nuget/packages/",
+        "outputPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.BootStrapper/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj"
+              },
+              "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.1-dev-01635, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.1-dev-00293, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.3.0-dev-00791, )"
+            },
+            "Serilog.Exceptions": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.1-dev-10301, )"
+            },
+            "Serilog.Formatting.Compact": {
+              "target": "Package",
+              "version": "[1.1.1-dev-00944, )"
+            },
+            "Serilog.Formatting.Elasticsearch": {
+              "target": "Package",
+              "version": "[9.0.0-beta7, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.5.0-dev-00370, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.1.1-dev-00901, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[9.0.0-beta7, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.1-dev-00947, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj",
+        "projectName": "uCondo.Galdino.Domain",
+        "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj",
+        "packagesPath": "/Users/emersongaldino/.nuget/packages/",
+        "outputPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj",
+        "projectName": "uCondo.Galdino.Repository",
+        "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Repository/uCondo.Galdino.Repository.csproj",
+        "packagesPath": "/Users/emersongaldino/.nuget/packages/",
+        "outputPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/UCondo.Galdino/UCondo.Galdino.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/UCondo.Galdino/UCondo.Galdino.csproj",
+        "projectName": "UCondo.Galdino",
+        "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/UCondo.Galdino/UCondo.Galdino.csproj",
+        "packagesPath": "/Users/emersongaldino/.nuget/packages/",
+        "outputPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/UCondo.Galdino/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Application/uCondo.Galdino.Application.csproj"
+              },
+              "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.BootStrapper/uCondo.Galdino.BootStrapper.csproj"
+              },
+              "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/POC/UCondo.Galdino/src/uCondo.Galdino.Domain/uCondo.Galdino.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

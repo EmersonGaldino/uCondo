@@ -1,0 +1,5 @@
+CREATE DATABASE uCondo
+GO
+
+USE uCondo
+GO

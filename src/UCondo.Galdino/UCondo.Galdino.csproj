@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <AssemblyName>UCondo.Galdino</AssemblyName>
+        <RootNamespace>UCondo.Galdino</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\uCondo.Galdino.Application\uCondo.Galdino.Application.csproj" />
+      <ProjectReference Include="..\uCondo.Galdino.BootStrapper\uCondo.Galdino.BootStrapper.csproj" />
+      <ProjectReference Include="..\uCondo.Galdino.Domain\uCondo.Galdino.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Controllers\WeatherForecastController.cs" />
+    </ItemGroup>
+
+   
+
+</Project>
